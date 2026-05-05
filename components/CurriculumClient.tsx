@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useTransition } from 'react';
-import type { Phase } from '@/lib/curriculum';
+import type { PhaseData as Phase } from '@/lib/curriculum';
 
 const PHASE_COLORS = [
   'border-zinc-500 bg-zinc-500',
