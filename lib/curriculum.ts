@@ -30,7 +30,7 @@ export const CURRICULUM_DATA = [
       {
         title: '파일과 폴더 만들고 지우기',
         goal: '터미널로 파일/폴더를 생성, 이동, 삭제할 수 있다',
-        keywords: ['mkdir', 'touch', 'mv', 'cp', 'rm', 'rm -rf', 'wildcard'],
+        keywords: ['mkdir', 'touch', 'mv', 'cp', 'rm', 'rm -rf'],
         example: 'mkdir my-project → cd my-project → touch hello.txt → ls → rm hello.txt',
       },
       {
@@ -42,14 +42,14 @@ export const CURRICULUM_DATA = [
       {
         title: '권한과 프로세스',
         goal: '권한 오류를 이해하고 해결할 수 있다',
-        keywords: ['sudo', 'permission', 'chmod', 'ps', 'kill', 'exit code'],
+        keywords: ['sudo', 'permission', 'chmod'],
         example: 'touch test.sh → chmod 000 test.sh → cat test.sh (오류 확인) → chmod 644 test.sh → cat test.sh (해결)',
       },
       {
         title: '패키지 설치',
         goal: '패키지 매니저로 프로그램을 설치하고 동작을 확인할 수 있다',
-        keywords: ['homebrew', 'package manager', 'PATH', 'which', '환경변수'],
-        example: 'which node → brew install cowsay → cowsay "나 개발자 됐다"',
+        keywords: ['package manager', 'PATH', 'which', '환경변수'],
+        example: '(호쌤: 이건 맥북용 package manager 예제임. 윈도우는 찾아봐야함!) which node → brew install cowsay → cowsay "나 개발자 됐다"',
       },
     ],
   },
@@ -65,7 +65,7 @@ export const CURRICULUM_DATA = [
       {
         title: '서버란 무엇인가',
         goal: '서버/클라이언트 차이와 로컬 vs 원격 서버를 설명할 수 있다',
-        keywords: ['localhost', 'cloud', 'deployment', 'Vercel', 'AWS', 'container', 'VM'],
+        keywords: ['localhost', 'cloud', 'deployment', 'Vercel', 'AWS'],
         example: 'curl -I https://google.com → status code, server 헤더 등 응답 직접 확인',
       },
       {
@@ -77,8 +77,8 @@ export const CURRICULUM_DATA = [
       {
         title: 'API란 무엇인가',
         goal: 'API가 무엇인지 이해하고 실제 호출해서 데이터를 받아볼 수 있다',
-        keywords: ['API', 'REST', 'endpoint', 'JSON', 'GET', 'POST', 'status code'],
-        example: 'curl https://api.github.com/users/hoseung1102 → 본인 GitHub 정보가 JSON으로 출력됨',
+        keywords: ['API', 'REST', 'endpoint', 'JSON', 'GET', 'POST'],
+        example: '(호쌤: 이건 나의 깃헙 정보니까 너의 깃헙 정보로도 실험해보길!) curl https://api.github.com/users/hoseung1102 → 본인 GitHub 정보가 JSON으로 출력됨',
       },
     ],
   },
@@ -87,7 +87,7 @@ export const CURRICULUM_DATA = [
     steps: [
       {
         title: '로컬 버전 관리',
-        goal: '내 컴퓨터에서 저장소를 만들고 첫 커밋을 남길 수 있다',
+        goal: '내 컴퓨터에서 저장소를 만들고 첫 커밋을 남길 수 있다 (호쌤: 추상적 개념이라 어려움. 흥미가 떨어진다면 컨셉만 이해하고 패스!)',
         keywords: ['repository', 'staging area', 'commit', 'git init', 'git add', 'git status', 'git log'],
         example: '폴더 만들고 파일 수정하면서 커밋 3개 쌓아보기',
       },
@@ -111,7 +111,7 @@ export const CURRICULUM_DATA = [
       {
         title: '웹페이지가 뭔지 이해하기',
         goal: 'HTML 파일을 직접 열어서 브라우저가 어떻게 화면을 그리는지 설명할 수 있다',
-        keywords: ['HTML', 'CSS', 'JavaScript', 'tag', 'element', '브라우저 렌더링', 'DOM'],
+        keywords: ['HTML', 'CSS', 'JavaScript', 'tag', 'element', '브라우저 렌더링'],
         example: 'touch index.html → 안에 <h1>안녕</h1> 작성 → 브라우저로 열기',
       },
       {
@@ -152,7 +152,7 @@ export const CURRICULUM_DATA = [
       {
         title: '스크립트로 반복 작업 없애기',
         goal: '반복적으로 하던 일을 스크립트 하나로 줄일 수 있다',
-        keywords: ['shell script', 'python script', 'shebang', '실행권한', 'argument'],
+        keywords: ['shell script', 'python script', '실행권한', 'argument'],
         example: '특정 폴더 파일을 날짜별로 자동 정리하는 스크립트 (AI로 작성)',
       },
       {
