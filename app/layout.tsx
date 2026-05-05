@@ -20,7 +20,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex items-center gap-6 text-sm">
               <Link href="/" className="text-zinc-400 hover:text-white transition-colors">대시보드</Link>
               <Link href="/curriculum" className="text-zinc-400 hover:text-white transition-colors">커리큘럼</Link>
-              <Link href="/admin" className="text-zinc-400 hover:text-white transition-colors">관리자</Link>
             </nav>
           </div>
         </header>
